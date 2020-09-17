@@ -1,4 +1,51 @@
-.fit-image {
-    width: auto;
-    height: 100%;
+body {
+/* font-family: "Open Sans", sans-serif; */
+background-color: darkslategrey; }
+
+h1, h2, h3 {
+    font-family: 'Krona One', sans-serif; }
+
+h2 {
+color: #8CC63F; }
+
+header h2 {
+color: #00AEEF; }
+
+.site-footer {
+background-image: linear-gradient(to right, #8CC63F, yellow,  #00AEEF);
+padding: 20px 0; }
+
+.jumbotron {
+margin: 0;
+padding: 30px;
+background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+color: white; }
+
+.jumbotron-fluid {
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
 }
+
+.row-content {
+padding: 50px 0;
+border-bottom: 1px ridge;
+min-height: 200px; }
+
+.navbar {
+background-color: transparent; }
+
+.tab-content {
+border: 1px solid #DDD;
+border-top: none;
+padding: 10px; }
+
+.carousel {
+border: solid #8CC63F; }
+
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5); }
+
+#carouselButton {
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: 100; }
