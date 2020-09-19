@@ -1,6 +1,6 @@
 body {
 /* font-family: "Open Sans", sans-serif; */
-background-color: darkslategrey; }
+background: linear-gradient(45deg, rgb(0, 0, 0), transparent); }
 
 h1, h2, h3 {
     font-family: 'Krona One', sans-serif; }
@@ -12,13 +12,13 @@ header h2 {
 color: #00AEEF; }
 
 .site-footer {
-background-image: linear-gradient(to right, #8CC63F, yellow,  #00AEEF);
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
 padding: 20px 0; }
 
 .jumbotron {
 margin: 0;
 padding: 30px;
-background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
 color: white; }
 
 .jumbotron-fluid {
